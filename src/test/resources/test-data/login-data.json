@@ -1,0 +1,15 @@
+{
+  "loginemail" : "ynagy95@gmail.com",
+  "loginpassword" : "Iti123",
+  "logininvalidpassword": "123456",
+  "logininvalidemail" : "ynagy95@gmail",
+  "loginwrongemail" : "ynagy99999789@gmail.com",
+  "loginwrongemailerror" : "Please enter a valid email address.",
+  "loginnotfoundcustomererror": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+  "logininvalidcredentialserror" : "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect",
+  "loginrecoveremailvalid" : "Email with instructions has been sent to you.",
+  "loginrecoveremailinvalid" : "Email not found.",
+  "loginnoemailerror" : "Enter your email",
+  "loginwrongemailformaterror": "Wrong email"
+
+}

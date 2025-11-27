@@ -1,0 +1,63 @@
+{
+  "Hover1": {
+    "topmenu": "Computers",
+    "submenu1": "Desktops",
+    "submenu2": "Notebooks",
+    "submenu3": "Accessories"
+  },
+  "Hover2": {
+    "topmenu": "Electronics",
+    "submenu1": "Camera, photo",
+    "submenu2": "Cell phones"
+  },
+  "footer" : {
+    "no1": "Contact us",
+    "no2": "Compare products list",
+    "no3" : "New products",
+    "no4": "Orders",
+    "no5" : "Compare products list",
+    "no6" : "Recently viewed products"
+
+
+  },
+  "address1": {
+    "no1": "Address_FirstName",
+    "no2": "Address_LastName",
+    "no3": "Address_Email",
+    "no4": "Address_Company",
+    "no5": "Address_City",
+    "no6": "Address_Address1",
+    "no7": "Address_Address2",
+    "no8": "Address_ZipPostalCode",
+    "no9": "Address_PhoneNumber",
+    "no10": "Address_FaxNumber"
+
+  },
+
+
+  "AddressErrorMessages": [
+    "First name is required.",
+    "Last name is required.",
+    "Email is required.",
+    "City is required",
+    "Street address is required",
+    "Zip / postal code is required",
+    "Phone is required"
+  ],
+  "address2": {
+
+    "NewAddress_FirstName": "ahmed",
+    "NewAddress_LastName": " ali",
+    "NewAddress_Email": "ahmedalii@gmail.com",
+    "NewAddress_Company" : " ITI",
+    "NewAddress_City": " cairo",
+    "NewAddress_Address1": " nasr city",
+    "NewAddress_Address2": " 5th district",
+    "NewAddress_ZipPostalCode" : " 11865",
+    "NewAddress_PhoneNumber": " 01012345678",
+    "NewAddress_FaxNumber": " 0223456789"
+
+  },
+  "contactus" : "i really liked the product thank you alot",
+  "contactusmessage" : "Your enquiry has been successfully sent to the store owner."
+}

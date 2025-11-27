@@ -1,0 +1,41 @@
+{
+  "genderMale" : "male",
+    "genderFemale" : "female",
+    "firstName" : "nagy",
+    "lastName" : "elbanna",
+    "newemail" : "ahmednagy1251@gmail.com",
+  "newemail2": "yousefnagy47546@gmail.com",
+  "newemail3": "itiii1256@gmail.com",
+  "newemail4": "alizahran7@gmail.com",
+  "firstname2" : "al",
+  "lastname2" : "zhran",
+  "firstname3" : "ali",
+  "lastname3" : "zahran",
+  "password" : "Iti123",
+  "notsamepassword" : "Iti12",
+  "confirmPassword" : "Iti123",
+  "existemail" : "ynagy95@gmail.com",
+  "wrongemail" : "ynagy95@gmail",
+"existemailerror" : "The specified email already exists",
+  "emptyemailerror" : "Email is required.",
+  "firstnameerror": "First name is required.",
+  "secondnameerror": "Last name is required.",
+  "wrongemailerror" : "Wrong email",
+  "existemailerror2" : "The e-mail address is already in use",
+  "passworderror": [
+    "Password is required.",
+    "The password and confirmation password do not match."
+  ],
+  "passwordconfirmerror": "Password is required.",
+  "passwordlessthan6charerror" : "The password should have at least 6 characters.",
+  "passwordnotmatcherror": "The password and confirmation password do not match.",
+  "passwordlessthan6digits" : "123",
+
+  "requiredFields": [
+    "First name is required.",
+    "Last name is required.",
+    "Email is required.",
+    "Password is required.",
+    "Password is required."
+  ]
+}

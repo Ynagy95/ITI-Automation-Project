@@ -1,0 +1,198 @@
+{
+  "Billingaddress1": {
+    "no1": "BillingNewAddress_FirstName",
+    "no2": "BillingNewAddress_LastName",
+    "no3": "BillingNewAddress_Email",
+    "no4": "BillingNewAddress_Company",
+    "no5": "BillingNewAddress_City",
+    "no6": "BillingNewAddress_Address1",
+    "no7": "BillingNewAddress_Address2",
+    "no8": "BillingNewAddress_ZipPostalCode",
+    "no9": "BillingNewAddress_PhoneNumber",
+    "no10": "BillingNewAddress_FaxNumber"
+
+  },
+
+
+  "BillingAddressErrorMessages": [
+    "First name is required.",
+    "Last name is required.",
+    "Email is required.",
+    "Country is required.",
+    "City is required",
+    "Street address is required",
+    "Zip / postal code is required",
+    "Phone is required"
+  ],
+  "Billingaddress2": {
+    "billingaddress" : "Billing Address",
+    "BillingNewAddress_FirstName": "ahmed",
+    "BillingNewAddress_LastName": " ali",
+    "BillingNewAddress_Email": "ahmedalii@gmail.com",
+     "BillingNewAddress_Company" : " ITI",
+     "BillingNewAddress_City": " cairo",
+    "BillingNewAddress_Address1": " nasr city",
+     "BillingNewAddress_Address2": " 5th district",
+   "BillingNewAddress_ZipPostalCode" : " 11865",
+     "BillingNewAddress_PhoneNumber": " 01012345678",
+    "BillingNewAddress_FaxNumber": " 0223456789"
+
+  },
+  "shippingaddress1": {
+    "no1": "ShippingNewAddress_FirstName",
+    "no2": "ShippingNewAddress_LastName",
+    "no3": "ShippingNewAddress_Email",
+    "no4": "ShippingNewAddress_Company",
+    "no5": "ShippingNewAddress_City",
+    "no6": "ShippingNewAddress_Address1",
+    "no7": "ShippingNewAddress_Address2",
+    "no8": "ShippingNewAddress_ZipPostalCode",
+    "no9": "ShippingNewAddress_PhoneNumber",
+    "no10": "ShippingNewAddress_FaxNumber"
+
+  },
+
+  "shippingaddress2": {
+    "BillingNewAddress_FirstName": "mohamed",
+    "BillingNewAddress_LastName": "hassan",
+    "BillingNewAddress_Email": "mohamed.hassan90@gmail.com",
+    "BillingNewAddress_Company": "TechVision",
+    "BillingNewAddress_City": "cairo",
+    "BillingNewAddress_Address1": "smouha district",
+    "BillingNewAddress_Address2": "el-geish street",
+    "BillingNewAddress_ZipPostalCode": "21523",
+    "BillingNewAddress_PhoneNumber": "01124567890",
+    "BillingNewAddress_FaxNumber": "034567890"
+
+  },
+  "billingaddress2forregister": {
+    "BillingNewAddress_FirstName": "",
+    "BillingNewAddress_LastName": "",
+    "BillingNewAddress_Email": "",
+    "BillingNewAddress_Company": "TechVision",
+    "BillingNewAddress_City": "cairo",
+    "BillingNewAddress_Address1": "smouha district",
+    "BillingNewAddress_Address2": "el-geish street",
+    "BillingNewAddress_ZipPostalCode": "21523",
+    "BillingNewAddress_PhoneNumber": "01124567890",
+    "BillingNewAddress_FaxNumber": "034567890"
+
+  },
+  "billingaddress" : "New Address",
+
+  "Shippingmethod": {
+    "no1": "Ground (10.00)",
+    "no2": "Next Day Air (40.00)",
+    "no3": "2nd Day Air (20.00)",
+    "no4": "Ground (0.00)",
+    "no5": "Next Day Air (0.00)",
+    "no6": "2nd Day Air (0.00)"
+
+
+  },
+
+  "Paymentmethod": {
+    "no1": "Cash On Delivery (COD) (7.00)",
+    "no2": "Check / Money Order (5.00)",
+    "no3": "Credit Card",
+    "no4": "Purchase Order"
+
+
+
+  },
+
+  "confirmation": {
+    "no1": "You will pay by COD",
+    "no2": "P.S. You can edit this text from admin panel."
+
+  },
+
+  "creditcard": {
+    "no1": "Visa",
+    "no2": "Master card",
+    "no3": "Discover",
+    "no4": "Amex"
+
+  },
+  "Cardholder": {
+    "name": "CardholderName",
+    "cardnumber": "CardNumber",
+    "cardcode": "CardCode"
+
+  },
+  "Cardholderinfo": {
+    "name": "Youssef Nagy",
+    "wrongname": "",
+    "cardnumber": "4242424242424242",
+    "cardcode": "123",
+    "wrongcardnumber": "1234564564564",
+    "wrongcardcode": "12"
+
+  },
+  "creditcardErrorMessages": [
+    "Enter cardholder name Wrong card number Wrong card code"
+  ],
+  "ExpireMonthOptions": {
+    "no1": "01",
+    "no2": "02",
+    "no3": "03",
+    "no4": "04",
+    "no5": "05",
+    "no6": "06",
+    "no7": "07",
+    "no8": "08",
+    "no9": "09",
+    "no10": "10",
+    "no11": "11",
+    "no12": "12"
+  },
+  "ExpireYearOptions": {
+    "no1": "2025",
+    "no2": "2026",
+    "no3": "2027",
+    "no4": "2028",
+    "no5": "2029",
+    "no6": "2030",
+    "no7": "2031",
+    "no8": "2032",
+    "no9": "2033",
+    "no10": "2034",
+    "no11": "2035",
+    "no12": "2036",
+    "no13": "2037",
+    "no14": "2038",
+    "no15": "2039"
+  },
+  "": {
+    "no1": "Payment Method",
+    "no2": "Credit Card"
+  },
+
+  "h1texts": {
+    "no1": "Billing address",
+    "no2": "Shipping address",
+    "no3": "Shipping method",
+    "no4": "Payment method",
+    "no5": "Payment information",
+    "no6": "Confirm order"
+  },
+  "BillingAddressVerify": [
+    "Billing Address ahmed ali Email: ahmedalii@gmail.com Phone: 01012345678 Fax: 0223456789 ITI nasr city 5th district cairo , 11865 Egypt Payment Method Credit Card"
+  ],
+  "BillingAddressVerify2": [
+    "Billing Address ahmed ali Email: ahmedalii@gmail.com Phone: 01012345678 Fax: 0223456789 ITI nasr city 5th district cairo , 11865 Egypt Payment Method Check / Money Order"
+  ],
+  "countrystate": {
+    "no1": "BillingNewAddress_CountryId",
+    "no2": "BillingNewAddress_StateProvinceId",
+    "no3": "ShippingNewAddress_CountryId",
+    "no4": "ShippingNewAddress_StateProvinceId",
+    "no5" : "Address_CountryId",
+    "no6" : "Address_StateProvinceId"
+
+
+  }
+
+
+
+}

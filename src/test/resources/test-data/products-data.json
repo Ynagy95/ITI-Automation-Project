@@ -1,0 +1,630 @@
+{
+
+  "book1": {
+    "name": "Computing and Internet",
+    "price": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+  },
+  "book2": {
+    "name": "Copy of Computing and Internet EX",
+    "price": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+  },
+    "book3": {
+        "name": "Fiction",
+        "price": "24.00",
+        "quantity": "1",
+        "total": "24.00"
+    },
+    "book4": {
+        "name": "Fiction EX",
+        "price": "24.00",
+        "quantity": "1",
+        "total": "24.00"
+    },
+    "book5": {
+        "name": "Health Book",
+        "price": "10.00",
+        "quantity": "1",
+        "total": "10.00"
+    },
+    "book6": {
+        "name": "Science",
+        "price": "51.00",
+        "quantity": "1",
+        "total": "51.00"
+    },
+  "searchedBook1": {
+    "searchedname": "Fiction EX",
+    "searchedprice": "24.00",
+    "quantity": "1",
+    "total": "24.00"
+
+  },
+  "searchedBook2": {
+    "searchedname": "Computing and Internet",
+    "searchedprice": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+
+  },
+
+  "pageno": {
+    "no1": "4",
+    "no2": "8",
+    "no3": "12"
+
+  },
+  "view": {
+    "no1": "Grid",
+    "no2": "List"
+  },
+  "sort": {
+    "no1": "Position",
+    "no2": "Name: A to Z",
+    "no3": "Name: Z to A",
+    "no4": "Price: Low to High",
+    "no5" : "Price: High to Low",
+    "no6" : "Created on"
+
+  },
+  "review": {
+    "no1": "27",
+    "no2": "",
+    "no3": ""
+
+
+  },
+  "quantity": {
+    "no1": "2",
+    "no2": "3",
+    "no3": ""
+  },
+  "quantitynumbers": {
+    "no1": "13",
+    "no2": "72",
+    "no3": ""
+
+
+  },
+  "friendemail" : "ahmednagy@gmail.com",
+  "youremail" : "ynagy95@gmail.com",
+  "message" : "i recommend that",
+  "errormessage" : "Only registered customers can use email a friend feature",
+  "successmessage" : "Your message has been sent.",
+  "yourfrienderror" : "Enter friend's email",
+  "youremailerror" : "Enter your email",
+  "yourwrongemail" : "ynagy95@gmail",
+  "friendwrongemail":"ahmed@gmail",
+  "wrongemailmessage" : "Wrong email",
+  "reviewerrormessage": "Only registered users can write reviews",
+  "Reviewtitleerror": "Review title is required.",
+  "Reviewtexterror": "Review text is required.",
+  "Reviewtext" : "really amazing product",
+  "Reviewtitle": "amazing",
+  "rating": {
+    "no1": "1",
+    "no2": "2",
+    "no3": "3",
+    "no4": "4",
+    "no5": "5"
+  },
+
+  "cartaddedmessage": "The product has been added to your shopping cart",
+  "wishlistmessage" : "The product has been added to your wishlist",
+  "wishlistmessageerror" : "Your quantity exceeds stock on hand. The maximum quantity that can be added is 1.",
+
+  "filterOption": {
+    "no1": "Under 25.00",
+    "no2": "25.00 - 50.00",
+    "no3": "Over 50.00",
+    "no4" : "Under 1000.00",
+    "no5" : "1000.00 - 1200.00",
+    "no6" : "Over 1200.00",
+    "no7" : "Intel",
+    "no8" : "3 GB",
+    "no9" : "Under 100.00",
+    "no10" : "Over 100.00",
+    "no11" : "Under 500.00",
+    "no12" : "Over 500.00",
+    "no13" : "0.00 - 500.00",
+    "no14" : "500.00 - 700.00",
+    "no15" : "700.00 - 3000.00"
+  },
+
+  "wordsuggestion": {
+    "no1": "awesome",
+    "no2": "book",
+    "no3": "nice",
+    "no4" : "computer",
+    "no5" : "compact",
+    "no6" : "TCP",
+    "no7" : "Mobile phone",
+    "no8" : "cell",
+    "no9" : "camera",
+    "no10" : "cool",
+    "no11" : "cover",
+    "no12" : "apparel",
+    "no13" : "shirt",
+    "no14" : "shoes",
+    "no15" : "jeans",
+    "no16" : "digital",
+    "no17" : "jewelry",
+    "no18" : "gift",
+    "no19" : ""
+  },
+
+  "Processor": {
+    "no1": "2.2 GHz Intel Pentium Dual-Core E2200",
+    "no2": "2.5 GHz Intel Pentium Dual-Core E2200 [+15.00]"
+  },
+  "RAM": {
+    "no1": "2 GB",
+    "no2": "4GB [+20.00]",
+    "no3": "8GB [+60.00]"
+
+  },
+  "HDD": {
+    "no1": "320 GB ",
+    "no2": "400 GB  [+100.00]"
+
+
+  },
+  "OS": {
+    "no1": "Ubuntu ",
+    "no2": "Windows 7  [+50.00]",
+    "no3": "Windows 10  [+60.00]"
+
+  },
+  "Software": {
+    "no1": "Microsoft Office  [+50.00]",
+    "no2": "Acrobat Reader  [+10.00]",
+    "no3": "Total Commander  [+5.00]",
+    "no4" : "Image Viever  [+5.00]",
+    "no5" : "Office Suite  [+100.00]",
+    "no6" : "Other Office Suite  [+40.00]"
+
+
+  },
+  "processorradiobutton": {
+    "no1": "Slow ",
+    "no2": "Medium  [+15.00]",
+    "no3": "Fast  [+100.00]"
+
+  },
+  "Ramradiobutton": {
+    "no1": "8 GB  [+60.00] ",
+    "no2": "2 GB ",
+    "no3": "4 GB  [+20.00]"
+
+  },
+
+
+
+
+  "category1": {
+    "name": "Desktops"
+
+  },
+  "category2": {
+    "name": "Notebooks"
+
+  },
+  "category3": {
+    "name": "Acessories"
+  },
+  "category4": {
+    "name": "Camera, photo"
+  },
+  "category5": {
+    "name": "Cell phones"
+  },
+
+  "desktop1": {
+    "name": "Build your own cheap computer",
+    "price": "800.00",
+    "quantity": "1",
+    "total": "800.00"
+  },
+  "desktop2": {
+    "name": "Build your own computer",
+    "price": "1200.00",
+    "quantity": "1",
+    "total": "1200.00"
+  },
+  "desktop3": {
+    "name": "Build your own expensive computer",
+    "price": "1800.00",
+    "quantity": "1",
+    "total": "1800.00"
+  },
+  "desktop4": {
+    "name": "Desktop PC with CDRW",
+    "price": "500.00",
+    "quantity": "1",
+    "total": "500.00"
+  },
+  "desktop5": {
+    "name": "Elite Desktop PC",
+    "price": "1350.00",
+    "quantity": "1",
+    "total": "1350.00"
+  },
+  "desktop6": {
+    "name": "Simple Computer",
+    "price": "800.00",
+    "quantity": "1",
+    "total": "800.00"
+  },
+  "notebook": {
+    "name": "14.1-inch Laptop",
+    "price": "1590.00",
+    "quantity": "1",
+    "total": "1590.00"
+  },
+
+
+  "accessorie1": {
+    "name": "TCP Coaching day",
+    "price": "1000.00",
+    "quantity": "1",
+    "total": "1000.00"
+  },
+  "accessorie2": {
+    "name": "TCP Instructor Led Training",
+    "price": "9000.00",
+    "quantity": "1",
+    "total": "9000.00"
+  },
+  "accessorie3": {
+    "name": "TCP Public Complete",
+    "price": "3000.00",
+    "quantity": "1",
+    "total": "3000.00"
+  },
+  "accessorie4": {
+    "name": "TCP Public MT/AT",
+    "price": "1700.00",
+    "quantity": "1",
+    "total": "1700.00"
+  },
+
+  "accessorie5": {
+    "name": "TCP Public RPA/TCD",
+    "price": "1700.00",
+    "quantity": "1",
+    "total": "1700.00"
+  },
+  "accessorie6": {
+    "name": "TCP Self-Paced Training",
+    "price": "400.00",
+    "quantity": "1",
+    "total": "400.00"
+  },
+  "accessorie7": {
+    "name": "TCP Self-Paced Training additional month",
+    "price": "400.00",
+    "quantity": "1",
+    "total": "400.00"
+  },
+  "Camera,photo1": {
+    "name": "1MP 60GB Hard Drive Handycam Camcorder",
+    "price": "349.00",
+    "quantity": "1",
+    "total": "349.00"
+  },
+  "Camera,photo2": {
+    "name": "Camcorder",
+    "price": "530.00",
+    "quantity": "1",
+    "total": "530.00"
+  },
+  "Camera,photo3": {
+    "name": "Digital SLR Camera 12.2 Mpixel",
+    "price": "From 500.00",
+    "quantity": "1",
+    "total": "From 500.00"
+  },
+  "Camera,photo4": {
+    "name": "High Definition 3D Camcorder",
+    "price": "1300.00",
+    "quantity": "1",
+    "total": "1300.00"
+  },
+  "Camera,photo5": {
+    "name": "Digital SLR Camera - Black",
+    "price": "670.00",
+    "quantity": "1",
+    "total": "670.00"
+  },
+  "Camera,photo6": {
+    "name": "Digital SLR - Special edition",
+    "price": "500.00",
+    "quantity": "1",
+    "total": "500.00"
+  },
+  "Cellphones1": {
+    "name": "Smartphone",
+    "price": "100.00",
+    "quantity": "1",
+    "total": "100.00"
+  },
+  "Cellphones2": {
+    "name": "Used phone",
+    "price": "5.00",
+    "quantity": "1",
+    "total": "5.00"
+  },
+  "Cellphones3": {
+    "name": "Phone Cover",
+    "price": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+  },
+  "apparel1": {
+    "name": "50's Rockabilly Polka Dot Top JR Plus Size",
+    "price": "11.00",
+    "quantity": "1",
+    "total": "11.00"
+  },
+  "apparel2": {
+    "name": "Blue and green Sneaker",
+    "price": "11.00",
+    "quantity": "1",
+    "total": "11.00",
+    "newquantity": "2",
+    "newtotal": "22.00"
+  },
+  "apparel3": {
+    "name": "Blue Jeans",
+    "price": "1.00",
+    "quantity": "1",
+    "total": "1.00"
+  },
+  "apparel4": {
+    "name": "Casual Golf Belt",
+    "price": "1.00",
+    "quantity": "1",
+    "total": "1.00"
+  },
+  "apparel5": {
+    "name": "Custom T-Shirt",
+    "price": "15.00",
+    "quantity": "1",
+    "total": "15.00"
+  },
+  "apparel6": {
+    "name": "Denim Short with Rhinestones",
+    "price": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+  },
+  "apparel7": {
+    "name": "Genuine Leather Handbag with Cell Phone Holder & Many Pockets",
+    "price": "35.00",
+    "quantity": "1",
+    "total": "35.00"
+  },
+  "apparel8": {
+    "name": "Green and blue Sneaker",
+    "price": "17.56",
+    "quantity": "1",
+    "total": "17.56"
+  },
+  "apparel9": {
+  "name": "Men's Wrinkle Free Long Sleeve",
+  "price": "24.00",
+  "quantity": "1",
+  "total": "24.00"
+},
+  "apparel10": {
+    "name": "Sunglasses",
+    "price": "25.00",
+    "quantity": "1",
+    "total": "25.00"
+  },
+  "apparel11": {
+    "name": "TBlue Jeans",
+    "price": "1.00",
+    "quantity": "1",
+    "total": "1.00"
+  },
+  "apparel12": {
+    "name": "Women's Running Shoe",
+    "price": "40.00",
+    "quantity": "1",
+    "total": "40.00"
+  },
+  "apparel13": {
+    "name": "Wool Hat",
+    "price": "30.00",
+    "quantity": "1",
+    "total": "30.00"
+  },
+  "Digitaldownloads1": {
+    "name": "3rd Album",
+    "price": "1.00",
+    "quantity": "1",
+    "total": "1.00"
+  },
+  "Digitaldownloads2": {
+    "name": "Music 2",
+    "price": "10.00",
+    "quantity": "1",
+    "total": "10.00"
+  },
+  "Digitaldownloads3": {
+    "name": "Music 2",
+    "price": "3.00",
+    "quantity": "1",
+    "total": "3.00"
+  },
+  "Jewelry1": {
+    "name": "Create Your Own Jewelry",
+    "price": "100.00",
+    "quantity": "1",
+    "total": "100.00"
+  },
+  "Jewelry2": {
+    "name": "Black & White Diamond Heart",
+    "price": "130.00",
+    "quantity": "1",
+    "total": "130.00"
+  },
+  "Jewelry3": {
+  "name": "Diamond Pave Earrings",
+  "price": "350.00",
+  "quantity": "1",
+  "total": "350.00"
+},
+  "Jewelry4": {
+  "name": "Diamond Tennis Bracelet",
+  "price": "360.00",
+  "quantity": "1",
+  "total": "360.00"
+},
+  "Jewelry5": {
+  "name": "Vintage Style Three Stone Diamond Engagement Ring",
+  "price": "2100.00",
+  "quantity": "1",
+  "total": "2100.00"
+},
+  "GiftCards1": {
+    "name": "$5 Virtual Gift Card",
+    "price": "5.00",
+    "quantity": "1",
+    "total": "5.00"
+  },
+  "GiftCards2": {
+    "name": "$25 Virtual Gift Card",
+    "price": "25.00",
+    "quantity": "1",
+    "total": "25.00"
+  },
+  "GiftCards3": {
+    "name": "$50 Physical Gift Card",
+    "price": "50.00",
+    "quantity": "1",
+    "total": "50.00"
+  },
+  "GiftCards4": {
+    "name": "$100 Physical Gift Card",
+    "price": "100.00",
+    "quantity": "1",
+    "total": "100.00"
+  },
+
+
+
+
+  "Manufacturer": {
+    "no1": "Samsung",
+    "no2": "Apple"
+  },
+  "coverColor": {
+    "no1": "Black",
+    "no2": "White",
+    "no3": "Blue",
+    "no4": "Yellow"
+  },
+  "cover": {
+    "no1": "0000212_phone-cover_70.png",
+    "no2": "0000211_phone-cover_70.png",
+    "no3": "0000213_phone-cover_70.png",
+    "no4": "0000214_phone-cover_70.png"
+  },
+  "dropdown": {
+    "processor": "16_5_4",
+    "ram": "16_6_5",
+    "Manufacturer": "80_2_37",
+    "Color": "80_1_38",
+    "size1PolkaDot": "5_7_1",
+    "size2greenSneaker" : "28_7_10",
+    "size3LongSleeve" : "10_7_36",
+    "size4blueSneaker" : "68_7_13",
+    "size5Womenshoe" : "7_7_2",
+    "size6Women" : "7_1_3",
+    "size7hat" : "34_7_12",
+    "size8tshirt" : "24_2_9",
+    "Jewelrymaterial" : "71_9_15",
+    "Jewerlylength" : "71_10_16"
+
+  },
+  "size": {
+    "no1": "Small",
+    "no2": "1X [+2.00]",
+    "no3": "2X",
+    "no4": "3X",
+    "no5": "4X",
+    "no6": "5X",
+    "no7": "8",
+    "no8": "9",
+    "no9": "10",
+    "no10" : "11",
+    "no12" : "Small",
+    "no13" : "Medium",
+    "no14" : "Large",
+    "no15" : "X-Large"
+  },
+  "shoesColor": {
+    "no1": "White",
+    "no2": "Black",
+    "no3": "Green"
+
+  },
+  "blackshoesColor": {
+    "no1": "White/Blue",
+    "no2": "White/Black"
+
+  },
+  "Material": {
+    "no1": "Gold (0,5 mm)",
+    "no2": "Gold (1 mm)",
+    "no3": "Silver (1 mm)"
+
+  },
+  "Pendant": {
+    "no1": "Ladybug",
+    "no2": "Heart",
+    "no3": "Star",
+    "no4" : "None"
+
+  },
+  "jewerlylength" : "i want a length of 20cm",
+
+  "GiftCard": {
+    "no1": "giftcard_1_RecipientName",
+    "no2": "giftcard_1_RecipientEmail",
+    "no3": "giftcard_1_SenderName",
+    "no4": "giftcard_1_SenderEmail",
+    "no5": "giftcard_1_Message",
+    "no6": "giftcard_2_RecipientName",
+    "no7": "giftcard_2_RecipientEmail",
+    "no8": "giftcard_2_SenderName",
+    "no9": "giftcard_2_SenderEmail",
+    "no10": "giftcard_2_Message"
+  },
+  "GiftCardinfo": {
+    "RecipientsName": "ahmed",
+    "RecipientsEmail": "ahmednagy@gmail.com",
+    "YourName": "nagy",
+    "YourEmail": "alizahran@gmail.com",
+    "Wrongemail": "alizahran@gmail",
+    "Message": "$5 Gift Card for you",
+    "wrongemailerror": "Enter valid sender email",
+
+
+  "errorMessages": [
+    "Enter valid recipient name",
+    "Enter valid recipient email",
+    "Enter valid sender name",
+    "Enter valid sender email"
+  ]
+
+
+  },
+  "sizeColor": ["Size: 11, Color: Black"]
+
+}

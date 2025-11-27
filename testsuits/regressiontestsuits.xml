@@ -1,0 +1,12 @@
+<suite name="Full Regression Suite" verbose="1">
+    <test name="E2E Tests">
+        <classes>
+            <class name="proj.shopping.tests.userinterface.CheckoutTests"> </class>
+            <class name="proj.shopping.tests.userinterface.LoggedinCheckoutTests"> </class>
+            <class name="proj.shopping.tests.userinterface.RegisterTest"> </class>
+            <class name="proj.shopping.tests.userinterface.LoginTest"> </class>
+            <class name="proj.shopping.tests.userinterface.ProductsTests"> </class>
+            <class name="proj.shopping.tests.userinterface.CartTests"> </class>
+        </classes>
+    </test>
+</suite>
