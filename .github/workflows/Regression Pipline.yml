@@ -20,70 +20,55 @@ jobs:
     permissions:
       checks: write
     steps:
-      - name: Checkout Code
+      - name: checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Java
+      - name: setup java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '21'
 
-      - name: Setup Maven
+      - name: setup maven
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
 
-      - name: Run Tests
+      - name: Running Tests
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Chrome" clean test
-
-      - name: Install Allure
-        run: |
-          sudo apt-add-repository ppa:qameta/allure -y
-          sudo apt-get update
-          sudo apt-get install allure -y
-
-      - name: Generate Allure HTML Report
-        run: allure generate allure-results --clean -o test-output/reports/chrome
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Report
-          path: "test-output/reports/chrome/**"
+          path: "test-output/reports/*.html"
 
   Edge_Windows_Test:
     runs-on: windows-latest
     permissions:
       checks: write
     steps:
-      - name: Checkout Code
+      - name: checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Java
+      - name: setup java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '21'
 
-      - name: Setup Maven
+      - name: setup maven
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
 
-      - name: Run Tests
+      - name: Running Tests
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Edge" clean test
-
-      - name: Install Allure
-        run: choco install allure -y
-
-      - name: Generate Allure HTML Report
-        run: allure generate allure-results --clean -o test-output/reports/edge
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Report
-          path: "test-output/reports/edge/**"
+          path: "test-output/reports/*.html"
