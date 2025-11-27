@@ -20,55 +20,61 @@ jobs:
     permissions:
       checks: write
     steps:
-      - name: checkout Code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: setup java
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '21'
 
-      - name: setup maven
+      - name: Setup Maven
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
 
-      - name: Running Tests
+      - name: Run Tests
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Chrome" clean test
+
+      - name: Generate Allure HTML Report
+        run: allure generate allure-results --clean -o test-output/reports
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Report
-          path: test-output/reports/**/*.html
+          path: "test-output/reports/**"
 
   Edge_Windows_Test:
     runs-on: windows-latest
     permissions:
       checks: write
     steps:
-      - name: checkout Code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: setup java
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '21'
 
-      - name: setup maven
+      - name: Setup Maven
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
 
-      - name: Running Tests
+      - name: Run Tests
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Edge" clean test
+
+      - name: Generate Allure HTML Report
+        run: allure generate allure-results --clean -o test-output/reports
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Report
-          path: "test-output/reports/*.html"
+          path: "test-output/reports/**"
