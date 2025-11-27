@@ -38,14 +38,20 @@ jobs:
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Chrome" clean test
 
+      - name: Install Allure
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install allure -y
+
       - name: Generate Allure HTML Report
-        run: allure generate allure-results --clean -o test-output/reports
+        run: allure generate allure-results --clean -o test-output/reports/chrome
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Report
-          path: "test-output/reports/**"
+          path: "test-output/reports/chrome/**"
 
   Edge_Windows_Test:
     runs-on: windows-latest
@@ -70,11 +76,14 @@ jobs:
         continue-on-error: true
         run: mvn -Dtest="${TARGET}" -DexecutionType="LocalHeadless" -DbrowserType="Edge" clean test
 
+      - name: Install Allure
+        run: choco install allure -y
+
       - name: Generate Allure HTML Report
-        run: allure generate allure-results --clean -o test-output/reports
+        run: allure generate allure-results --clean -o test-output/reports/edge
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Report
-          path: "test-output/reports/**"
+          path: "test-output/reports/edge/**"
