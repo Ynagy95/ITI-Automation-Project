@@ -1,5 +1,4 @@
 package proj.shopping.utils.report;
-
 import org.jsoup.Jsoup;
 import proj.shopping.utils.OperatingSystem;
 import proj.shopping.utils.TerminalUtils;

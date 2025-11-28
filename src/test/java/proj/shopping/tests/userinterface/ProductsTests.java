@@ -26,11 +26,11 @@ public class ProductsTests extends BaseTest {
                 .clickonbooksbutton()
                 .verifywelcometext()
                 .navg
-                .entersearchtext(testdata.getJsonData("searchedBook.searchedname"));
+                .entersearchtext(testdata.getJsonData("searchedBook1.searchedname"));
                 new ProductsPage(driver)
                 .verifyproductpriceandname(
-                        testdata.getJsonData("searchedBook.searchedname"),
-                        testdata.getJsonData("searchedBook.searchedprice"));
+                        testdata.getJsonData("searchedBook1.searchedname"),
+                        testdata.getJsonData("searchedBook1.searchedprice"));
     }
     @Test
     @Description("Search for a book and verify its details from homepage and add it to cart")
@@ -44,8 +44,7 @@ public class ProductsTests extends BaseTest {
                         testdata.getJsonData("searchedBook2.searchedname"),
                         testdata.getJsonData("searchedBook2.searchedprice"))
                 .clickonaddtocartbutton(testdata.getJsonData("book1.name"))
-                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
-                .closeaddtocartmessage();
+                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"));
     }
 
 
@@ -147,10 +146,8 @@ public class ProductsTests extends BaseTest {
                 .verifywelcometext()
                 .clickonaddtocartbutton(testdata.getJsonData("book3.name"))
                 .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
-                .closemessage()
                 .clickonaddtocartbutton2(testdata.getJsonData("book5.name"))
-                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
-                .closemessage();
+                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"));
 
     }
     @Test
@@ -163,7 +160,6 @@ public class ProductsTests extends BaseTest {
                 .verifywelcometext()
                 .clickwishlist()
                 .verifyaddtowishlistmessage(testdata.getJsonData("wishlistmessage"))
-                .closemessage()
                 .clickwishlist()
                 .verifywishlistmessageerror(testdata.getJsonData("wishlistmessageerror"));
 
@@ -380,9 +376,6 @@ public class ProductsTests extends BaseTest {
                         testdata.getJsonData("accessorie2.price"))
                 .clickonaddtocartbutton(testdata.getJsonData("accessorie2.name"))
                 .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
-                .closemessage()
-                .clickonaddtocartbutton2(testdata.getJsonData("accessorie2.name"))
-                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
                 .closemessage();
 
 
@@ -463,8 +456,7 @@ public class ProductsTests extends BaseTest {
                         testdata.getJsonData("Digitaldownloads2.price"))
                 .clickDownloadsample()
                 .clickonaddtocartbutton(testdata.getJsonData("Digitaldownloads2.name"))
-                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"))
-                .closemessage();
+                .verifyaddtocartmessage(testdata.getJsonData("cartaddedmessage"));
 
     }
     @Test

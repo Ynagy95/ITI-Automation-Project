@@ -313,7 +313,7 @@ public class LoggedinCheckoutTests extends BaseTest {
                 .verifywelcometext()
                 .FillReviewtitle(testdata.getJsonData("Reviewtitle"))
                 .FillReviewtext(testdata.getJsonData("Reviewtext"))
-                .clickonratingOption(testdata.getJsonData("rating.no1"))
+                .clickonratingOption(testdata.getJsonData("rating.no5"))
                 .clickonsubmitbutton()
                 .verifysucessmessage();
         new Footer(driver).clickonwords(testdata.getJsonData("footer.no5"))
